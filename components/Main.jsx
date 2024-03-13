@@ -26,7 +26,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg hover:shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -35,17 +35,17 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg hover:shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
             <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg hover:shadow-[#3defff] p-6 border-2 border-[#3defff] cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </Link>
             <Link href="https://www.instagram.com/viswajith_viswa03/">
-              <div className="rounded-full shadow-lg shadow-[#3defff] border-2 border-[#3defff] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg hover:shadow-[#3defff] border-2 border-[#3defff] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <GrInstagram />
               </div>
             </Link>

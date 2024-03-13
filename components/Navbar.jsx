@@ -5,13 +5,13 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 // import { useRouter } from 'next/router';
-import NavLogo from "../public/assets/navLogo.png";
+import NavLogo from "../public/new.jpeg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("bg-black/70");
+  const [linkColor, setLinkColor] = useState("text-white");
 
   const handleNav = () => {
     setNav(!nav);
@@ -43,30 +43,30 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt="/"
-              width="125"
-              height="50"
-              className="cursor-pointer"
+              width="80"
+              height="80"
+              className="cursor-pointer rounded-full"
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 font-bold text-lg uppercase hover:border-b hover:text-cyan-300">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 font-bold text-lg uppercase hover:border-b hover:text-cyan-300">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 font-bold text-lg uppercase hover:border-b hover:text-cyan-300">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 font-bold text-lg uppercase hover:border-b hover:text-cyan-300">
               <Link href="/#projects">Projects</Link>
             </li>
-            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 font-bold text-lg uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li> */}
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 font-bold text-lg uppercase hover:border-b hover:text-cyan-300">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
@@ -92,7 +92,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#07102b] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >

@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Viswa</title>
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/new.jpeg" />
       </Head>
     <Main />
     <About />
