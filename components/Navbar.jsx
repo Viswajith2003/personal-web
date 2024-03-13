@@ -89,7 +89,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <hr className="border border-cyan-300 mt-2" />
+      {/* <hr className="border border-cyan-300 mt-2" /> */}
 
 
       {/* Mobile Menu */}
