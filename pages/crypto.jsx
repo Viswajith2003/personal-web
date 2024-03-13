@@ -38,7 +38,7 @@ const crypto = () => {
             package. This application was built using the Coin Gecko API.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/Viswajith2003'
             target='_blank'
             rel='noreferrer'
           >

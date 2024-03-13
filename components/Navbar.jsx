@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
+import { RiSendPlaneLine } from "react-icons/ri";
 // import { useRouter } from 'next/router';
 import NavLogo from "../public/new.jpeg";
 
@@ -37,7 +38,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Link href="/">
           <a>
             <Image
@@ -79,7 +80,17 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
+        <div className="flex items-center gap-4 sm:hidden">
+          <Link href="/#contact">
+            <div className="flex items-center gap-2 border-2 border-cyan-600 py-2 px-4 rounded-[8px] max-h-[40px] font-bold hover:bg-[#44cdff] hover:text-black hover:font-[500] ease-in duration-300">
+              <RiSendPlaneLine />
+              Let's Talk
+            </div>
+          </Link>
+        </div>
       </div>
+      <hr className="border border-cyan-300 mt-2" />
+
 
       {/* Mobile Menu */}
       {/* Overlay */}
@@ -138,11 +149,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              {/* <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link> */}
+
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
